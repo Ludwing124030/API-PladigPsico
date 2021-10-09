@@ -6,10 +6,10 @@
 
         <form [formGroup]="usuarioCredencialesForm" (ngSubmit)="iniciarSesion()">
           <label for="usuario" class="form-label">Usuario: </label>
-          <input type="text" class="form-control" id="usuario" formControlName="usuario">
+          <input type="text" class="form-control" id="usuario" formControlName="usuario" placeholder="usuario">
 
           <label for="password" class="form-label">Password</label>
-          <input type="password" class="form-control" id="password" formControlName="password">
+          <input type="password" class="form-control" id="password" formControlName="password" placeholder="contraseña">
           <!-- <p>{{message}}</p> -->
           <br>
           <button class="btn-iniciar" type="submit" [disabled]="!usuarioCredencialesForm.valid">Iniciar Sesión</button>

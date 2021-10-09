@@ -11,8 +11,8 @@ import { APIServiceService } from 'src/app/apiservice.service';
 })
 export class LoginComponent{
   usuarioCredencialesForm = this.fb.group({
-    usuario: ['ejemplo@gmail.com', Validators.required],
-    password: ['su contraseña', Validators.required]
+    usuario: ['', Validators.required],
+    password: ['', Validators.required]
   });
   
   message = "Inicie sesion para acceder a funcionalidad de admin";
