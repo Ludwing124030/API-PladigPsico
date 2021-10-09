@@ -85,15 +85,18 @@
                             <label for="telefono" class="form-label">telefono: </label>
                             <input type="number" class="form-control" id="telefono" formControlName="telefono" autocomplete="off">
                         </div>
-                        <div class="col-md-5">
-                            <label for="codigo" class="form-lebel">codigo: </label>
-                            <input type="number" class="form-control" id="codigo" formControlName="codigo">
-                        </div>
+                        
                     </div>
+                    
                     <br>
                     <!-- <button >Enviar examen</button> -->
-                    <button class="btn-test" [disabled]="!examenCrearForm.valid">Enviar test</button>
+                   
                 </div>
+                <div>
+                    <label for="codigo" class="form-lebel">codigo: </label>
+                    <input type="number" class="form-control" id="codigo" formControlName="codigo">
+                </div>
+                <button class="btn-test" [disabled]="!examenCrearForm.valid">Enviar test</button>
             </form>
         </div>
     </div>
