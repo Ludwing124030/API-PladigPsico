@@ -23,7 +23,7 @@ export class APIServiceService {
       //data solo recibe objetos no JSON.stringify...
       const response = await axios({
         method: metodo,
-        baseURL: 'https://api.pladigpsico.tech',
+        baseURL: 'https://api.pladigpsico.me',
         url: serviceUrl,
         data: body,
         headers: authRequired ? {
