@@ -28,6 +28,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
         ReactiveFormsModule
     ],
     declarations: [
+        DashboardComponent,
         AdminComponent,
         PreguntasComponent,
         UsuarioComponent,
@@ -44,8 +45,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
         PreguntaCrearComponent,
         RespuestasComponent,
         RespuestaCrearComponent,
-        RespuestaActualizarComponent,
-        DashboardComponent
+        RespuestaActualizarComponent        
     ]
 })
 export class AdminModule {}
