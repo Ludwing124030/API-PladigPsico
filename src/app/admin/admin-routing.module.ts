@@ -19,6 +19,7 @@ import { RespuestasComponent } from './respuestas/respuestas.component';
 import { UsuarioActualizarComponent } from './usuario-actualizar/usuario-actualizar.component';
 import { UsuarioCrearComponent } from './usuario-crear/usuario-crear.component';
 import { UsuarioComponent } from './usuario/usuario.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 // import AuthGuard pero no esta terminado...
 
