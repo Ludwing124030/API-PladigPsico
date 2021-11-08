@@ -19,6 +19,7 @@ import { PreguntaCrearComponent } from './pregunta-crear/pregunta-crear.componen
 import { RespuestasComponent } from './respuestas/respuestas.component';
 import { RespuestaCrearComponent } from './respuesta-crear/respuesta-crear.component';
 import { RespuestaActualizarComponent } from './respuesta-actualizar/respuesta-actualizar.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
     imports: [
@@ -43,7 +44,8 @@ import { RespuestaActualizarComponent } from './respuesta-actualizar/respuesta-a
         PreguntaCrearComponent,
         RespuestasComponent,
         RespuestaCrearComponent,
-        RespuestaActualizarComponent
+        RespuestaActualizarComponent,
+        DashboardComponent
     ]
 })
 export class AdminModule {}

@@ -48,7 +48,7 @@ const adminRoutes: Routes = [
                     {path: 'respuestas', component: RespuestasComponent},
                     {path: 'respuestas/actualizar', component: RespuestaActualizarComponent},
                     {path: 'respuestas/crear', component: RespuestaCrearComponent},
-                    {path: '', redirectTo: '/admin', component: AdminComponent}
+                    {path: '', redirectTo: '/dashboard', component: AdminComponent}
 
                 ]
             }
