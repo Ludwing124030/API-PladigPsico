@@ -4,9 +4,9 @@ import { APIServiceService } from 'src/app/apiservice.service';
 import { DataParaActualizarService } from '../data-para-actualizar.service';
 
 @Component({
-    selector: 'app-citas',
-    templateUrl: './citas.component.html',
-    styleUrls: ['./citas.component.scss']
+    selector: 'app-dashboard',
+    templateUrl: './dashboard.component.html',
+    styleUrls: ['./dashboard.component.scss']
   })
   export class DashboardComponent implements OnInit {
     citas: Array<any> = [];
